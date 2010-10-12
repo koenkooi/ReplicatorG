@@ -1,8 +1,8 @@
 Format is tab separated preferences.
 Open File for Raftless	
 Activate Raftless	True
-1st Perimeter Feed Rate over Feed Rate (ratio):	0.8
-1st Perimeter Flow Rate over Flow Rate (ratio):	0.82
+1st Perimeter Feed Rate over Feed Rate (ratio):	0.50
+1st Perimeter Flow Rate over Flow Rate (ratio):	0.95
 Add Extrusion Intro:	False
 Extrusion Intro Max X Absolute (mm):	20.0
 Extrusion Intro Max Y Absolute (mm):	20.0

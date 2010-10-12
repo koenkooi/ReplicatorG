@@ -1,11 +1,11 @@
 (Mendel ABS with heated build platform snd 0.25mm nozzle keinforge profile)
 (beginning of start.txt)
-M104 S222 T0 (Extruder Temperature to 222 Celsius)
+M104 S230 T0 (Extruder Temperature to 222 Celsius)
 M109 S110 T0 (Heated Platform Temperature to 110 Celsius)
 G21 (Metric FTW)
 G90 (Absolute Positioning)
 (You have failed me for the last time, MakerBot)
-M108 S210 (Extruder speed = max)
+M108 S255 (Extruder speed = max)
 M6 T0 (Wait for tool to heat up)
 (Spacexula raftless tail)
 G1 X-90.0 Y90.0 Z0.10 F3000
@@ -14,7 +14,7 @@ G1 X-90.0 Y-90.0 Z0.10 F2000
 G1 X90.0 Y-90.0 Z0.10 F990
 G1 X90.0 Y90.0 Z0.10 F2000
 G1 X-90.0 Y90.0 Z0.10 F990
-M103
 M104 S202 T0 (Extruder Temperature to 202 Celsius)
+M103
 (end of start.txt)
 
